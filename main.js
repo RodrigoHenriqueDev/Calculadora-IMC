@@ -17,3 +17,9 @@ function calcularImc() {
         paragrafo.innerHTML = `${nome.value}, seu IMC é ${calculoImc.toFixed(2)} e está com excesso de peso`
     }
 }
+function limparDados(){
+    nome.value = ""
+    altura.value = ""
+    peso.value =""
+    document.getElementById('p-resultado').textContent=""
+    }
